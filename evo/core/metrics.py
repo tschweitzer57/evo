@@ -49,7 +49,6 @@ PathPair = typing.Tuple[trajectory.PosePath3D, trajectory.PosePath3D]
 class MetricsException(EvoException):
     pass
 
-
 @unique
 class StatisticsType(Enum):
     rmse = "rmse"
@@ -59,7 +58,6 @@ class StatisticsType(Enum):
     min = "min"
     max = "max"
     sse = "sse"
-
 
 @unique
 class PoseRelation(Enum):
